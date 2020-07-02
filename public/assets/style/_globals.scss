@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'ProductSans';
+  src: url('../fonts/ProductSans/ProductSansRegular.ttf');
+}
+
+
+$font-family-sans-serif: 'ProductSans';
+$font-size-base: .9rem;
+
+$white:    #fff;
+$gray-100: #f5f5f5;
+$gray-200: #e0e0e0;
+$gray-300: #c2c2c2;
+$gray-400: #a3a3a3;
+$gray-500: #999999;
+$gray-600: #8f8f8f;
+$gray-700: #525252;
+$gray-800: #333333;
+$gray-900: #1f1f1f;
+$black:    #141414;
+
+$blue:    #35a7ff;
+$indigo:  #6610f2;
+$purple:  #4a00a0;
+$pink:    #e86a92;
+$red:     #db5461;
+$orange:  #ffa62b;
+$yellow:  #fde74c;
+$green:   #2db045;
+$teal:    #58a4b0;
+$cyan:    #52d1dc;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $white;
+$dark:          $gray-800;
+
+$body-bg: $gray-100;
+
+$navbar-dark-color:                 rgba($white, .75);
+$navbar-dark-hover-color:           rgba($white, .9);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .5);
+
+$card-border-width: none;
+
+$box-shadow-sm:               0 .25rem .75rem rgba($black, .1);
+$box-shadow:                  0 .5rem 1.5rem rgba($black, .175);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);
